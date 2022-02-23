@@ -84,7 +84,7 @@ body {
     box-shadow: var(--shadow-pointers);
 }
 
-#oneSecondsBorder {
+#oneSecondBorder {
     background: conic-gradient(var(--end), var(--middle), var(--oneSecond));
     border-radius: 13rem;
     height: 12rem;

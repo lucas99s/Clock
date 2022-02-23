@@ -15,7 +15,7 @@ function hourUpdate() {
     let timeInMs = Date.now() - (1000 * 60 * 60 * 3) // (UTF-3 / Brazil)
     secondPointer.style.transform = "rotate(" + (timeInMs / 1000) * 6 + "deg) translate(0%, -50%)"
     secondsBorder.style.transform = "rotate(" + (timeInMs / 1000) * 6 + "deg) translate(0%, 0%)"
-    oneSecondsBorder.style.transform = "rotate(" + (timeInMs / 1000) * 6 * 60 + "deg) translate(0%, 0%)"
+    oneSecondBorder.style.transform = "rotate(" + (timeInMs / 1000) * 6 * 60 + "deg) translate(0%, 0%)"
     minutePointer.style.transform = "rotate(" +  (timeInMs / (1000 * 60)) * 6 + "deg) translate(0%, -50%)"
     minutesBorder.style.transform = "rotate(" + (timeInMs / (1000 * 60)) * 6 + "deg) translate(0%, 0%)"
     hourPointer.style.transform = "rotate(" + (timeInMs / (1000 * 60 * 12)) * 6 + "deg) translate(0%, -50%)"
